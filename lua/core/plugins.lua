@@ -24,6 +24,11 @@ local ensure_packer = function()
         requires = { {'nvim-lua/plenary.nvim'} }
     }
     use 'nvim-treesitter/nvim-treesitter'
+    use {
+      "williamboman/mason.nvim",
+      "williamboman/mason-lspconfig.nvim",
+      "neovim/nvim-lspconfig",
+    }
 
   
     -- Automatically set up your configuration after cloning packer.nvim
