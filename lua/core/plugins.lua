@@ -29,6 +29,7 @@ local ensure_packer = function()
       "williamboman/mason-lspconfig.nvim",
       "neovim/nvim-lspconfig",
     }
+    use 'ThePrimeagen/vim-be-good'
 
   
     -- Automatically set up your configuration after cloning packer.nvim
