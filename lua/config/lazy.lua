@@ -22,20 +22,6 @@ require("lazy").setup({
     { import = "lazyvim.plugins.extras.coding.copilot" },
     { import = "lazyvim.plugins.extras.lang.ruby" },
     { import = "plugins" },
-    {
-
-      "nvim-treesitter/nvim-treesitter",
-      opts = function(_, opts)
-        -- add tsx and treesitter
-        vim.list_extend(opts.ensure_installed, {
-          "lua",
-          "typescript",
-          "ruby",
-          "javascript",
-          "yaml",
-        })
-      end,
-    },
   },
   defaults = {
     -- By default, only LazyVim plugins will be lazy-loaded. Your custom plugins will load during startup.
