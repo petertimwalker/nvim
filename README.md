@@ -12,5 +12,5 @@ mv ~/.local/state/nvim{,.bak}
 mv ~/.cache/nvim{,.bak}
 
 
-~/.config/nvim
+https://github.com/petertimwalker/nvim.git ~/.config/nvim
 ```
